@@ -29,9 +29,7 @@ if c:
 else:
     print("No existe")    
 
-
-
-###########################################    
+   
 #for
 
 for i in range(10): #longitud e incremento
