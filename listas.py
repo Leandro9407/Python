@@ -83,3 +83,18 @@ print(numero)
 
 numero.sort(reverse=True) # para ordenar la lista de mayor a menor
 print(numero)
+
+
+#desempaquetamiento
+lista_5 = [10, "hola", 30]
+
+a, b, c = lista_5   #cada valor de la fila se emparenta con cada variable a, b, c
+print(f"a={a}, b={b}, c={c}")
+
+
+#desempaquetamiento con comodines
+lista_6 = [10, "hola", 30, 40, 50, 60]
+
+a, b, c, *resto = lista_6  
+print(f"a={a}, b={b}, c={c}, d={resto}")
+
