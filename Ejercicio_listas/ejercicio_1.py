@@ -5,4 +5,4 @@ suma = 0
 for i in lista:
     suma = i + suma
         
-print(suma)        
+print(f"La suma de la lista es: {suma}")        

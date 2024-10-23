@@ -40,7 +40,7 @@ print(lista_nueva)
 lista_nueva.append(lista_2)
 print(lista_nueva)
 
-#ClEAR deja la lista vacia
+#CLEAR deja la lista vacia
 lista_nueva.clear()
 print(lista_nueva)
 
