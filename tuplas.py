@@ -2,6 +2,9 @@
 tupla = (4, 5, 9)
 print(tupla)
 
+#len para saber la longitud de la tupla
+longitud = len(tupla)
+
 #convertir lista a tupla o viceversa
 tupla_2 = (4, 5, 9)
 lista_t = tuple(tupla_2) 
@@ -17,7 +20,7 @@ print(f"a={a}, b={b}, c={c}")
 #desempaquetamiento con comodines
 lista_6 = (10, "hola", 30, 40, 50, 60)
 
-a, b, c, *resto = lista_6  
+a, b, c, *resto = lista_6  #a=10, b="hola", c=30, resto=40, 50, 60
 print(f"a={a}, b={b}, c={c}, d={resto}")
 
 

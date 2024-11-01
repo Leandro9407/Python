@@ -4,7 +4,7 @@ lista_1 = []
 #lista mixta
 lista_2 = [1, 2, 3, 4, "azul", "gato", "perro"]
 
-print(f"Lista_2: {lista_2[4]}")
+print(f"Lista_2: {lista_2[4]}") #para acceder a una posicion de la lista
 print(f"Lista_2: {len(lista_2)}") #para saber cual es la longitud de la lista
 print(f"Lista_2[-2]: {lista_2[-2]}") #para recorrer el arreglo hacia atras
 
@@ -15,7 +15,7 @@ print(f"Lista_3: {lista_3}")
 lista_10 = lista_3[2][4]    #para buscar una posicion dentro de otra lista
 print(f"Lista_10: {lista_10}")
 
-#slicing especificar las posiciones del array
+#slicing especificar las posiciones de la lista
 print(f"Lista_2: {lista_2[2:5]}") #de:hasta
 print(f"Lista_2: {lista_2[2:]}") #de:hasta el final
 
@@ -37,7 +37,7 @@ lista_nueva = [9, 8, 7, 6, 5,]
 lista_nueva.append('cuatro')
 print(lista_nueva)
 
-lista_nueva.append(lista_2)
+lista_nueva.append(lista_2) #para agregar una lista a la lista
 print(lista_nueva)
 
 #CLEAR deja la lista vacia

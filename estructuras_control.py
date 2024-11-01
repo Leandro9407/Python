@@ -32,7 +32,7 @@ else:
    
 #for
 
-for i in range(10): #longitud e incremento
+for i in range(10, 1): #longitud e incremento
     print(i)
 
 for y in range(10, 20, 2): #inicializar, longitud, incremento
