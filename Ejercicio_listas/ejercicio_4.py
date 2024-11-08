@@ -15,7 +15,7 @@ print("#"*64)
 lista_2 = [8, 6, 8, 5, 1, 5, 7, 8, 3, 4, 6, 7, 2]
 print(f"Lista original: {lista_2}")
 
-nueva_lista = list(set(lista_2))
+nueva_lista = set(lista_2)
 print(f"Lista sin duplicados: {nueva_lista} \n") 
 
 

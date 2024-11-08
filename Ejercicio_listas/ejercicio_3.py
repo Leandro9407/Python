@@ -6,3 +6,4 @@ for i in cadena:
         cont+=1
 
 print(f"Cadenas con la primera y ultima letra iguales: {cont}")        
+

@@ -32,7 +32,7 @@ print(diferencia_simetrica)
 id_estudiantes.add(580)
 print(f"Agrego ultimo elemento {id_estudiantes}")
 
-#eloiminar un alemento de un conjunto
+#eliminar un alemento de un conjunto
 id_estudiantes.remove(580)
 print(f"Elimino ultimo elemento {id_estudiantes}")
 

@@ -75,22 +75,13 @@ amigas = {
 amigas.clear()
 print(amigas)
 
-#sorted imprimir por los valores
 
+#zip sirve para combinar elemento en pares, es decir, emparejar
+keys = ["Ten", "Twenty", "Thirty"]
+values = [10, 20, 30]
 
-#######################################################
-
-
-keys_2 = ['Ten', 'Twenty', 'Thirty']
-values_2 = [10, 20, 30]
-juntos = {"fdaf"}
-
-for i in range(1):
-    juntos.update(keys_2)
-    
-
-    print(juntos)
-
+diccionario_2 = dict(zip(keys, values))
+print(f"Creando diccionario con zip: {diccionario_2}")
 
 
 

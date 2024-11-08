@@ -52,7 +52,7 @@ cars = ('Ford', 'BMW', 'Volvo')
 buscar_1 = cars.count('Ford')
 print(buscar_1)
 
-#index muestra el indice
+#index muestra la posicion, el indice
 buscar_2 = cars.index('Ford')
 print(buscar_2)
 
