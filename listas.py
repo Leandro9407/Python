@@ -98,3 +98,14 @@ lista_6 = [10, "hola", 30, 40, 50, 60]
 a, b, c, *resto = lista_6  
 print(f"a={a}, b={b}, c={c}, d={resto}")
 
+
+#not in, para verificar si hay un numero repetido
+lista_3 = [5, 8, 2, 9, 5, 7, 6, 5, 8, 2, 1, 5, 6, 5, 7]
+print(f"Lista original: {lista_3}")
+
+nueva_lista_2 = []
+for i in lista_3:
+    if i not in nueva_lista_2:
+        nueva_lista_2.append(i)
+
+print(f"Lista modificada: {nueva_lista_2}") 

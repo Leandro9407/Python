@@ -16,7 +16,7 @@ mayor = 0
 num_1 = 0
 num_2 = 0
 for i in lista:
-    for y in lista:
+    for y in range(i + 1):
         producto = i*y
         if producto>=mayor and i!=y:
             mayor=producto
